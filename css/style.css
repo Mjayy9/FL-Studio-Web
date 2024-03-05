@@ -1,0 +1,1579 @@
+body{
+
+    background: #ee0979;
+    background: -webkit-linear-gradient(to left, #ff6a00, #ee0979);
+    background: linear-gradient(to left, #ff6a00, #ee0979); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.typb{
+    background: white;
+    background-color: white;
+}
+
+.top {
+    z-index: 1;
+    height: fit-content;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to bottom, #000000d8, #2b2b2bd8);
+    top: 0; 
+    display: flex;  
+    justify-content: center;
+    text-decoration: none;
+}
+  
+.top a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+  
+.top a:hover {
+    background-color:#8800ff;
+    color: black;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.menu ul {
+
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+
+    display: inline;
+    margin: 0 15px;
+}
+
+.content {
+
+    padding: 20px;
+    margin-top: 60px;
+
+}
+
+.text{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+    font-style: italic;
+
+}
+
+main{
+
+    margin: 100px;
+
+}
+
+.nadpisMusic{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    text-align: left;
+
+}
+
+.text1{
+
+    border: 4px solid #000000;
+    padding: 0 15px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    margin: 20px 0;
+
+}
+
+.text2{
+
+    border: 4px solid white;
+    padding: 0 15px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    text-align: right;
+
+}
+
+.text3{
+
+    border: 4px solid #000000;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: right;
+    margin: 20px 0;
+
+}
+
+@media (max-width: 767px) /* Zobrazenie pre mobil */
+{
+    .logo1fl{
+
+        display: block;
+        width: 145%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        border: 4px solid #000000;
+        margin-top: 40px;
+    
+    } 
+
+    .cookie-consent{
+        position: fixed;
+        bottom: 8px;
+        left: 20px;
+        width: 260px;
+        padding-top: 7px;
+        height: fit-content;
+        padding-bottom: 10px;
+        color: #fff;
+        
+        line-height: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        background: #292929;
+        z-index: 120;
+        cursor: pointer;
+        border-radius: 7px;
+        text-align: center;
+    }
+
+    
+    .allow-button{
+        height: 20px;
+        width: 104px;
+        color: #000000;
+        font-size: 12px;
+        line-height: 10px;
+        border-radius: 3px;
+        border: 1px solid rgb(0, 255, 0);
+        background-color: rgb(0, 255, 0);
+        margin-right: 10px;
+    }
+    
+    .deny-button{
+        height: 20px;
+        width: 104px;
+        color: #000000;
+        font-size: 12px;
+        line-height: 10px;
+        border-radius: 3px;
+        border: 1px solid rgb(255, 0, 0);
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .popup 
+    {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .popup .popuptext 
+    {
+        visibility: hidden;
+        width: 160px;
+        background-color: #292929;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -80px;
+    }
+    
+    
+    .popup .popuptext::after 
+    {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #0400ff transparent transparent transparent;
+    }
+    
+    
+    .popup .show 
+    {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+    }
+
+    .beat1{
+
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: 43%;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 8px;
+    
+    }
+    
+    .beat1:hover{
+    
+        background-color:#8800ff;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    .lmms{
+
+        display: block;
+        width: 30%;
+        padding: 0 0px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 0px;
+    
+    }
+
+    .flimage{
+
+        display: block;
+        scale: 90%;
+        margin-bottom: 0px;
+        width: fit-content;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        border: 10px solid #000000;
+        border-radius: 10px;
+        margin-top: 0px;
+    
+    }
+
+    .nadpisy{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        background-color: rgba(57, 57, 57, 0.512);
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    .gallery{
+        font-style: italic;
+        font-weight: bold;
+        font-size: 200%;
+        color: rgb(0, 0, 0);
+        text-align: center ;
+    }
+
+    .textprograms{
+        font-size: large;
+        margin-top: 0px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .musicprograms{
+        margin-bottom: 30px;
+    }
+
+    .programslist{
+        text-align: left;
+    }
+
+    .ableton{
+        grid-row: 1 / 2;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .abletonlist{
+        display: block;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .lmmstext{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 0px;
+        margin-left: 0px;
+    }
+
+    .lmmslogo{
+        width: 20%;
+        height: auto;
+    }
+
+    .lmmsworkspace{
+        max-width: 800px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 0px;
+    }
+
+    .lmmsweb{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .lmmsweb:hover{
+    
+        background-color:#27ab5f;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .flstudiotext{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 0px;
+        margin-left: 0px;
+    }
+
+    .flstudiologo{
+        width: 25%;
+        height: auto;
+    }
+
+    .flstudioworkspace{
+        max-width: 800px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 0px;
+    }
+
+    .flstudioweb{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .flstudioweb:hover{
+    
+        background-color: #f38c24;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .abletontext{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 0px;
+        margin-left: 0px;
+    }
+
+    .abletonlogo{
+        width: 75%;
+        height: auto;
+    }
+
+    .abletonworkspace{
+        max-width: 800px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 0px;
+    }
+
+    .abletonweb{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .abletonweb:hover{
+    
+        background-color: #242bf3;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .cubasetext{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 0px;
+        margin-left: 0px;
+    }
+
+    .cubaselogo{
+        width: 40%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .cubaseworkspace{
+        max-width: 800px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 0px;
+    }
+
+    .cubaseweb{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .cubaseweb:hover{
+    
+        background-color: #163955;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .textczsk{
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .slovakrappers{
+        margin-bottom: 30px;
+    
+    }  
+
+    .cnsfltlogo{
+        grid-row: 1 / 2;
+        max-width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+
+    }
+
+    .wdcwclogo{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        margin-top: 30px;
+
+    }
+
+    .cnsfltlist{
+        display: block;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .ecmslogo{
+        margin-left: 49px;
+        margin-right: auto;
+        max-width: 100px;
+        border-radius: 10px;
+    }
+
+    .konexlogo{
+        margin-left: 0px;
+        margin-right: auto;
+        max-width: 150px;
+        border-radius: 10px;
+        margin-top: 40px;
+
+    }
+
+    .prodlist{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 0px;
+        max-width: 100%;
+    }
+
+    .spotifysepar{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 20px;
+        white-space: nowrap;
+    }
+
+    .spotifysepar:hover{
+    
+        background-color:#008cff;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .spotifydms{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 20px;
+        white-space: nowrap;
+    }
+
+    .spotifydms:hover{
+    
+        background-color:#008cff;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .separ{
+        width: 70%;
+        height: auto;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+
+    .separr{
+        max-width: 500px;
+        margin-left: 12px;
+        z-index: 1;
+    }
+
+    .tracks{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    
+    .tracks:hover{
+    
+        background-color:#0220ff81;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .info{
+        font-weight: bold;
+    }
+
+    .reply{
+        font-style: oblique;
+    }
+
+    .albums{
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .spotifylucabrassi10x{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 15px;
+        white-space: nowrap;
+    }
+
+    .spotifylucabrassi10x:hover{
+    
+        background-color:#8800ff;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .lucabrassi10x{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+
+    .lucabrassi10xx{
+        max-width: 400px;
+        border-radius: 15px;
+        z-index: 1;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soloalbums{
+        font-weight: bold;
+        font-style: oblique;
+        margin-top: 15px;
+    }
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        border-radius: 15px;
+      }
+      
+    .accordion:hover {
+        background-color: #ccc; 
+    }
+      
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+    }
+
+    .dms{
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    .slideshow{
+        width: 250px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px;
+    }
+
+    .milionpluslogo{
+        width: 90%;
+        margin-left: 25px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .deckybeats{
+
+        margin-left: 80px;
+        max-width: 70%;
+        border-radius: 10px;
+    
+    }
+
+    .yzonik{
+        max-width: 400px;
+        border-radius: 15px;
+        z-index: 1;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    .warning{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .arap{
+        text-align: center;
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .storebuy{
+
+        height: 100%; 
+        margin-top: 27px; 
+        margin-left: 10px;
+
+    }
+
+    .count{
+
+        font-size: large;
+        font-weight: bolder;
+        text-align: center;
+
+    }
+
+    .formular{
+        background-color: #ee0979;
+        border-radius: 20px; 
+        padding: 25px;
+        margin: auto;
+    }
+
+    .formular_nadpis{
+        font-style: oblique;
+        font-weight: bold; 
+        margin-top: 30px;
+    }
+
+    .formular_label{
+        margin-bottom: 10px;
+    }
+
+    .formular_input{
+        margin-bottom: 2%;
+    }
+
+    .formular_textarea{
+        resize: none; 
+        margin-bottom: 2%; 
+        height: 200px;
+    }
+
+    .autor{
+
+        color: black;
+        font-size: large;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 125%;
+        
+    }
+
+}
+
+@media (min-width: 768px) /* Zobrazenie pre PC/NTB */
+{
+    .logo1fl{
+
+        display: block;
+        width: 100%;
+        padding: 0 0px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+        border: 4px solid #000000;
+        margin-top: 20px;
+    
+    } 
+
+    .cookie-consent{
+        position: fixed;
+        bottom: 8px;
+        left: 20px;
+        width: 260px;
+        padding-top: 7px;
+        height: fit-content;
+        padding-bottom: 10px;
+        color: #fff;
+        
+        line-height: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+        background: #292929;
+        z-index: 120;
+        cursor: pointer;
+        border-radius: 7px;
+        text-align: center;
+    }
+
+    
+    .allow-button{
+        height: 20px;
+        width: 104px;
+        color: #000000;
+        font-size: 12px;
+        line-height: 10px;
+        border-radius: 3px;
+        border: 1px solid rgb(0, 255, 0);
+        background-color: rgb(0, 255, 0);
+        margin-right: 10px;
+    }
+    
+    .deny-button{
+        height: 20px;
+        width: 104px;
+        color: #000000;
+        font-size: 12px;
+        line-height: 10px;
+        border-radius: 3px;
+        border: 1px solid rgb(255, 0, 0);
+        background-color: rgb(255, 0, 0);
+    }
+    
+    .popup 
+    {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .popup .popuptext 
+    {
+        visibility: hidden;
+        width: 160px;
+        background-color: #292929;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -80px;
+    }
+    
+    
+    .popup .popuptext::after 
+    {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #0400ff transparent transparent transparent;
+    }
+    
+    
+    .popup .show 
+    {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s
+    }
+
+    .beat1{
+        max-width: 200px;
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 70px;
+        white-space: nowrap;
+    
+    }
+    
+    .beat1:hover{
+    
+        background-color:#a202ff;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    .lmms{
+
+        display: block;
+        width: 15%;
+        padding: 0 0px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 0px;
+    
+    }
+
+    .flimage{
+
+        display: block;
+        scale: 90%;
+        margin-bottom: 0%;
+        width: fit-content;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        border: 10px solid #000000;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .nadpisy{
+
+        box-sizing: content-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        background-color: rgba(57, 57, 57, 0.512);
+        font-size: max(2%);
+        margin: 0 auto;
+        border-radius: 15px;
+    
+    }
+
+    .gallery{
+        font-style: italic;
+        font-weight: bold;
+        font-size: 300%;
+        color: rgb(0, 0, 0);
+        text-align: center ;
+    }
+
+    .textprograms{
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .musicprograms{
+        margin-bottom: 30px;
+
+    }
+
+    .ableton{
+        margin-left: 100px;
+        max-width: 400px;
+    }
+
+    .abletonlist{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    .lmmstext{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    .lmmslogo{
+        width: 8%;
+        height: auto;
+    }
+
+    .lmmsworkspace{
+        max-width: 800px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 450px;
+    }
+
+    .lmmsweb{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .lmmsweb:hover{
+    
+        background-color:#27ab5f;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .flstudiotext{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    .flstudiologo{
+        width: 8%;
+        height: auto;
+    }
+
+    .flstudioworkspace{
+        max-width: 800px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 450px;
+    }
+
+    .flstudioweb{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .flstudioweb:hover{
+    
+        background-color:#f38c24;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .abletontext{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    .abletonlogo{
+        width: 25%;
+        height: auto;
+    }
+
+    .abletonworkspace{
+        max-width: 800px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 450px;
+    }
+
+    .abletonweb{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .abletonweb:hover{
+    
+        background-color:#242bf3;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .cubasetext{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    .cubaselogo{
+        width: 12%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .cubaseworkspace{
+        max-width: 800px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cubaseweb{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .cubaseweb:hover{
+    
+        background-color:#163955;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .textczsk{
+        font-size: 30px;
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .cnsfltlogo{
+        margin-left: 100px;
+        max-width: 400px;
+        border-radius: 10px;
+    }
+
+    .wdcwclogo{
+        margin-left: 15px;
+        max-width: 500px;
+        border-radius: 10px;
+    }
+
+    .cnsfltlist{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0px;
+        max-width: 65%;
+    }
+
+    .ecmslogo{
+        margin-left: 100px;
+        max-width: 250px;
+        border-radius: 10px;
+    }
+
+    .konexlogo{
+        margin-left: 150px;
+        max-width: 350px;
+        width: 200%;
+        border-radius: 10px;
+        margin-top: 0px;
+
+    }
+
+    .prodlist{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 10px;
+        margin-left: 0px;
+        max-width: 65%;
+    }
+
+	.column {
+        float: left;
+        width: 30%;
+        padding: 5px;
+    }
+    img {
+        width: 100%;
+    }	
+
+    .spotifysepar{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .spotifysepar:hover{
+    
+        background-color:#8800ff;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .spotifydms{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .spotifydms:hover{
+    
+        background-color:#8800ff;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .separ{
+        width: 20%;
+        height: auto;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+
+    .separr{
+        max-width: 500px;
+        margin-left: 800px;
+        z-index: 1;
+    }
+
+    .spotifylucabrassi10x{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }
+
+    .spotifylucabrassi10x:hover{
+    
+        background-color:#8800ff;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .lucabrassi10x{
+        width: 20%;
+        height: auto;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+
+    .lucabrassi10xx{
+        max-width: 400px;
+        border-radius: 15px;
+        z-index: 1;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .soloalbums{
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        border-radius: 15px;
+    }
+      
+    .accordion:hover {
+        background-color: #ccc; 
+    }
+      
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+    }
+
+    .albums{
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .tracks{
+        text-decoration: none;
+        font-weight: bold;
+        background-color:#5252528d;
+        color: black;
+        width: fit-content;
+        padding: 5px 15px;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 25px;
+        white-space: nowrap;
+    }
+    
+    .tracks:hover{
+    
+        background-color:#0220ff81;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+
+    .info{
+        font-weight: bold;
+    }
+
+    .reply{
+        font-style: oblique;
+    }
+
+    .dms{
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    .slideshow{
+        width: 450px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+
+    .milionpluslogo{
+        margin-left: 15px;
+        margin-top: 10px;
+        max-width: 500px;
+        border-radius: 10px;
+    }
+
+    .deckybeats{
+
+        margin-left: 100px;
+        max-width: 150%;
+        border-radius: 10px;
+    
+    }
+
+    .yzonik{
+        max-width: 800px;
+        border-radius: 15px;
+        z-index: 1;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .warning{
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .arap{
+        text-align: center;
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+    .textstore{
+        font-size: 20px;
+        margin-top: 15px;
+        text-align: center;
+        font-style: oblique;
+    }
+
+    .storebuy{
+
+        height: 100%; 
+        margin-top: 27px; 
+        margin-left: 10px;
+
+    }
+
+    .count{
+
+        font-size: large;
+        font-weight: bolder;
+        text-align: center;
+
+    }
+
+    .autor{
+
+        color: black;
+        font-size: large;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 125%; 
+    }
+
+    .contact_title{
+        font-weight: bolder;
+        font-style: oblique;
+
+    }
+
+    .formular{
+        background-color: #ee0979;
+        border-radius: 20px; 
+        padding: 25px;
+        margin: auto;
+    }
+
+    .formular_nadpis{
+        font-style: oblique;
+        font-weight: bold; 
+        margin-top: 30px;
+    }
+
+    .formular_label{
+        margin-bottom: 10px;
+    }
+
+    .formular_input{
+        margin-bottom: 2%;
+    }
+
+    .formular_textarea{
+        resize: none; 
+        margin-bottom: 2%; 
+        height: 200px;
+    }
+ 
+}
+
+.myfl{
+
+    border: 4px solid white;
+    padding: 0 0px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    text-align: left;
+    
+}
