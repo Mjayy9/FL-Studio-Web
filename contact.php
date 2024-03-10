@@ -18,19 +18,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
+                        <a class="nav-link" href="./index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="programs.html">Programs</a>
+                        <a class="nav-link" href="programs.php">Programs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cz_sk_rap.html">CZ/SK Rap</a>
+                        <a class="nav-link" href="cz_sk_rap.php">CZ/SK Rap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="store.html">Store</a>
+                        <a class="nav-link" href="store.php">Store</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -18,19 +18,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
+                        <a class="nav-link" href="./index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="programs.html">Programs</a>
+                        <a class="nav-link" href="programs.php">Programs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cz_sk_rap.html">CZ/SK Rap</a>
+                        <a class="nav-link" href="cz_sk_rap.php">CZ/SK Rap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="store.html">Store</a>
+                        <a class="nav-link" href="store.php">Store</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -38,11 +38,11 @@
     </nav>
   <header class="top fixed-top d-none d-lg-flex justify-content-center">
     <img src="img/i.png" alt="Logo" style="height: 70px; width: auto;">
-    <a href="./index.html" class="text-white" style="text-decoration: none;">Home</a>
-    <a href="programs.html" class="text-white" style="text-decoration: none;">Programs</a>
-    <a href="cz_sk_rap.html" class="text-white" style="text-decoration: none;">CZ/SK Rap</a>
-    <a href="store.html" class="text-white" style="text-decoration: none;">Store</a>
-    <a href="contact.html" class="text-white" style="text-decoration: none;">Contact</a>
+    <a href="./index.php" class="text-white" style="text-decoration: none;">Home</a>
+    <a href="programs.php" class="text-white" style="text-decoration: none;">Programs</a>
+    <a href="cz_sk_rap.php" class="text-white" style="text-decoration: none;">CZ/SK Rap</a>
+    <a href="store.php" class="text-white" style="text-decoration: none;">Store</a>
+    <a href="contact.php" class="text-white" style="text-decoration: none;">Contact</a>
   </header>
   <main class="container mt-5">
     <div class="row" style="margin-top: 4vw;">
