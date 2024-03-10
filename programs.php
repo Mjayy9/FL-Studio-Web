@@ -68,7 +68,7 @@
       <hr>
       <div>
         <div class="lmmstext">
-          <h1 style="width: fit-content;">LMMS</h1><img src="img/LMMS%20Logo.png" alt="LMMS Logo" class="lmmslogo"> <a href="https://lmms.io/" target="_blank" style="float: right;" class="lmmsweb">LMMS Web</a>
+          <h1 style="width: fit-content;">LMMS</h1><img src="img/LMMS%20Logo.png" alt="LMMS Logo" class="lmmslogo"> <a href="https://lmms.io/lsp" target="_blank" style="float: right;" class="lmmsweb">LMMS Web</a>
         </div><br>
         <p>LMMS (previously Linux MultiMedia Studio) is a digital audio workstation application. When LMMS is run on a computer with the necessary hardware, it allows you to create music by arranging samples, synthetic sounds, and playing on a MIDI keyboard, and combines the features of trackers and sequencers. It supports the LADSPA (Linux Audio Developer's Simple Plugin API) and VST extensions. It is free software released under the GNU version 2.</p><br>
         <p style="font-weight: bold;">System requirements</p>
