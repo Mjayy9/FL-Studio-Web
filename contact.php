@@ -38,11 +38,11 @@
     </nav>
 <header class="top fixed-top d-none d-lg-flex justify-content-center">
     <img src="img/i.png" alt="Logo" style="height: 70px; width: auto;">
-    <a href="./index.html" class="text-white" style="text-decoration: none;">Home</a>
-    <a href="programs.html" class="text-white" style="text-decoration: none;">Programs</a>
-    <a href="cz_sk_rap.html" class="text-white" style="text-decoration: none;">CZ/SK Rap</a>
-    <a href="store.html" class="text-white" style="text-decoration: none;">Store</a>
-    <a href="contact.html" class="text-white" style="text-decoration: none;">Contact</a>
+    <a href="./index.php" class="text-white" style="text-decoration: none;">Home</a>
+    <a href="programs.php" class="text-white" style="text-decoration: none;">Programs</a>
+    <a href="cz_sk_rap.php" class="text-white" style="text-decoration: none;">CZ/SK Rap</a>
+    <a href="store.php" class="text-white" style="text-decoration: none;">Store</a>
+    <a href="contact.php" class="text-white" style="text-decoration: none;">Contact</a>
 </header>
 <main class="container mt-5">
     <br><br>
