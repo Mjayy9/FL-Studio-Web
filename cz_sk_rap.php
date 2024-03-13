@@ -187,15 +187,15 @@
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button class="accordion-button collapsed albums" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentytwo" aria-expanded="false" aria-controls="flush-collapseTwentytwo">Album Deluzia (Deluxe) Release Soon</button></h2>
+        <h2 class="accordion-header"><button class="accordion-button collapsed albums" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwentytwo" aria-expanded="false" aria-controls="flush-collapseTwentytwo">Album Deluzia Delux3*</button></h2>
         <div id="flush-collapseTwentytwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
           <div class="accordion-body">
             <p class="info">Year of release:</p>
-            <p class="reply">12.12. 2023</p>
+            <p class="reply">12.12.2023</p>
             <p class="info">Number of track:</p>
-            <p class="reply">? tracks</p>
+            <p class="reply">18 tracks</p>
             <p class="info">Produced by:</p>
-            <p class="reply">...</p>
+            <p class="reply">FOREVER</p>
           </div>
         </div>
       </div>
@@ -223,7 +223,7 @@
           <img src="img/DeluziaCover.png" class="slideshow d-block" alt="Deluzia Cover">
         </div>
         <div class="carousel-item">
-          <img src="img/MaxxxCover.png" class="slideshow d-block" alt="Maxxx Cover">
+          <img src="img/DeluziaDeluxeCover.png" class="slideshow d-block" alt="Deluzia Delux3*">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" style="width: 50%;">
