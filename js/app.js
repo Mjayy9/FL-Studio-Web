@@ -15,7 +15,7 @@ var acc = document.getElementsByClassName("accordion");
 
 function myalert() 
 {
-  alert("Thank you for your purchase\n"+"Info on the following process can be found in your email inbox\n"+"<3");
+  alert("Thank you for your purchase\n"+"Info on the following process can be found in your email inbox\n");
 }
 
 function contact() {
@@ -33,7 +33,7 @@ function contact() {
     return;
   }
   if (isValidEmail(email) && consentCheckbox.checked) {
-      window.location.href = "ThankYouPage.html";
+      window.location.href = "ThankYouPage.php";
   } else {
       if (!isValidEmail(email)) {
           alert("Invalid email address");

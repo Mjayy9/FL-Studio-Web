@@ -26,7 +26,7 @@
 		<p class="main-content__body" data-lead-id="main-content-body">Please give us some time to respond to you.</p>
 	</div>
     <br>
-    <a href="contact.html" style="color: rgb(0, 0, 0); margin-top: 25px" class="btn btn-warning">Back</a>
+    <a href="contact.php" style="color: rgb(0, 0, 0); margin-top: 25px" class="btn btn-warning">Back</a>
     <br>
 	<footer class="site-footer" id="footer">
 		<p class="site-footer__fineprint" id="fineprint">© 2023 Majkyy</p>
