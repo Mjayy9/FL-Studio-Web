@@ -65,4 +65,3 @@
   <?php
     include_once('partials/footer.php');
   ?>
-</html>
