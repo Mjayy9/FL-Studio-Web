@@ -11,3 +11,4 @@ define('DATABASE', [
 require_once('classes/Database.php');
 require_once('classes/Music.php');
 require_once('classes/Gallery.php');
+require_once('classes/MusicPrograms.php');
