@@ -12,3 +12,5 @@ require_once('classes/Database.php');
 require_once('classes/Music.php');
 require_once('classes/Gallery.php');
 require_once('classes/MusicPrograms.php');
+require_once('classes/Store.php');
+require_once('classes/Contact.php');

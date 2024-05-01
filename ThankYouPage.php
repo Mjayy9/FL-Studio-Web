@@ -18,6 +18,11 @@
     <script src="js/app.js"></script>
 </head>
 <body class="typb">
+<?php
+require_once '_inc/config.php';
+$contact_object = new Contact();
+$contact_object->insert();
+?>
 	<header class="site-header" id="header" style="padding-top: 75px; max-width: 1000px;">
 		<h1 class="site-header__title" data-lead-id="site-header-title">Thank you for your request</h1>
 	</header>

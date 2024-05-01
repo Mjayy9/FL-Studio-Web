@@ -21,7 +21,9 @@
           <li>AstralKid22 (label CNSFLT - Conspiracy Flat Studio)</li>
           <li>Danisen</li>
           <li>RuckFiso</li>
-        </ul><img src="img/CNSFLT%20Logo.png" alt="CNSFLT Logo" class="cnsfltlogo d-block"> <img src="img/We%20don't%20care,%20we%20create.png" alt="We Don't Care, We Create Logo" class="wdcwclogo d-block"></div>
+        </ul><img src="img/CNSFLT%20Logo.png" alt="CNSFLT Logo" class="cnsfltlogo d-block">
+            <img src="img/We%20don't%20care,%20we%20create.png" alt="We Don't Care, We Create Logo" class="wdcwclogo d-block">
+        </div>
       </div>
       <hr>
       <div class="slovakproducers">
@@ -270,7 +272,7 @@
     </div>
     <hr>
     <div class="slovakproducers">
-    <h1>List of some Slovak producers</h1>
+    <h1>List of some Czech producers</h1>
     <hr>
     <div class="prodlist">
       <ul>
