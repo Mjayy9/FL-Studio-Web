@@ -22,7 +22,6 @@
         <?php
         $store_object = new Store();
         $store = $store_object->select();
-
         for ($i = 0; $i < count($store); $i++) {
             echo '<div class="accordion-item">';
             echo '<h2 class="accordion-header">';
