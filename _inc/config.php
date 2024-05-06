@@ -19,3 +19,6 @@ require_once('classes/RappersAccordion.php');
 require_once('classes/Slideshow.php');
 require_once('classes/TableRappers.php');
 require_once('classes/TableProducers.php');
+require_once('classes/User.php');
+
+session_start();

@@ -36,6 +36,21 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact</a>
                     </li>
+                    <?php
+                    if(!isset($_SESSION["logged_in"]) || ($_SESSION["logged_in"] != true)) {
+                        echo '<li class="nav-item" >';
+                            echo '<a class="nav-link" href = "login.php" > LOGIN</a >';
+                        echo '</li >';
+                        echo '<li class="nav-item" >';
+                            echo '<a class="nav-link" href = "register.php" > REGISTER</a >';
+                        echo '</li >';
+                    }
+                    if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true) {
+                        echo '<li class="nav-item" >';
+                        echo '<a class="nav-link" href = "logout.php" >LOGOUT</a >';
+                        echo '</li >';
+                    }
+                    ?>
                 </ul>
             </div>
         </div>
@@ -47,4 +62,13 @@
     <a href="cz_sk_rap.php" class="text-white" style="text-decoration: none;">CZ/SK Rap</a>
     <a href="store.php" class="text-white" style="text-decoration: none;">Store</a>
     <a href="contact.php" class="text-white" style="text-decoration: none;">Contact</a>
+    <?php
+    if(!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] != true) {
+        echo '<a class="nav-link" href = "login.php" > LOGIN</a >';
+        echo '<a class="nav-link" href = "register.php" > REGISTER</a >';
+    }
+    if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true) {
+        echo '<a class="nav-link" href = "logout.php" >LOGOUT</a >';
+    }
+    ?>
 </header>
