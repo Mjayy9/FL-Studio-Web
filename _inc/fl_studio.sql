@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hostiteľ: 127.0.0.1
--- Čas generovania: Št 02.Máj 2024, 21:40
+-- Čas generovania: Út 07.Máj 2024, 15:27
 -- Verzia serveru: 10.4.32-MariaDB
 -- Verzia PHP: 8.2.12
 
@@ -34,6 +34,13 @@ CREATE TABLE `contact` (
   `message` text DEFAULT NULL,
   `acceptance` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_slovak_ci;
+
+--
+-- Sťahujem dáta pre tabuľku `contact`
+--
+
+INSERT INTO `contact` (`id`, `name`, `email`, `message`, `acceptance`) VALUES
+(5, 'Majkyy', 'majkyybeatz@gmail.com', '  Very nice!', 'on');
 
 -- --------------------------------------------------------
 
@@ -291,6 +298,27 @@ INSERT INTO `tablerappers` (`id`, `name`, `albums`, `albumsnumber`) VALUES
 (9, 'Playboi Carti', 'In Abundance; Playboi Carti; Die Lit; Whole Lotta Red', '4'),
 (10, 'Pop Smoke', 'Meet The Woo; Meet The Woo (Deluxe Version); Meet The Woo 2; Meet The Woo 2 (Deluxe); Shoot For The Stars Aim For The Moon; Shoot For The Stars Aim For The Moon (Deluxe); Faith; Faith (Deluxe)', '8');
 
+-- --------------------------------------------------------
+
+--
+-- Štruktúra tabuľky pre tabuľku `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `email` text NOT NULL,
+  `password` text NOT NULL,
+  `role` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_slovak_ci;
+
+--
+-- Sťahujem dáta pre tabuľku `user`
+--
+
+INSERT INTO `user` (`id`, `email`, `password`, `role`) VALUES
+(6, 'admin@admin.sk', '21232f297a57a5a743894a0e4a801fc3', 1),
+(7, 'marian.sebora@gmail.com', '202cb962ac59075b964b07152d234b70', 0);
+
 --
 -- Kľúče pre exportované tabuľky
 --
@@ -356,6 +384,12 @@ ALTER TABLE `tablerappers`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexy pre tabuľku `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT pre exportované tabuľky
 --
 
@@ -363,7 +397,7 @@ ALTER TABLE `tablerappers`
 -- AUTO_INCREMENT pre tabuľku `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT pre tabuľku `gallery`
@@ -418,6 +452,12 @@ ALTER TABLE `tableproducers`
 --
 ALTER TABLE `tablerappers`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT pre tabuľku `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

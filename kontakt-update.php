@@ -27,28 +27,33 @@ if(isset($_POST['edit_contact_id'], $_POST['name'], $_POST['email'], $_POST['mes
     header('Location: admin.php');
     exit();
 }
-
 ?>
 <main>
     <section class="container">
         <div class="row">
             <div class="col-100 text-center">
                 <form action="" method="POST">
-                    <label for="name">Name:</label>
+                    <label for="name" style="margin-bottom: 1%; font-weight: bold">Name:</label>
                     <br>
                     <input type="text" id="name" name="name" value="<?php echo $name?>">
                     <br>
-                    <label for="email">Email:</label>
+                    <br>
+                    <label for="email" style="margin-bottom: 1%; font-weight: bold">Email:</label>
                     <br>
                     <input type="email" id="email" name="email" value="<?php echo $email?>">
                     <br>
-                    <label for="message">Message:</label>
+                    <br>
+                    <label for="message" style="margin-bottom: 1%; font-weight: bold">Message:</label>
                     <br>
                     <textarea id="message" name="message"> <?php echo $message?> </textarea>
                     <br>
-                    <button type="submit"name="edit_contact_id" value="<?php echo $edit_contact_id?>">Save changes</button>
+                    <br>
+                    <button type="submit" name="edit_contact_id" class="btn btn-success" value="<?php echo $edit_contact_id?>">Save changes</button>
                 </form>
             </div>
         </div>
     </section>
 </main>
+<?php
+include_once('partials/footer.php');
+?>

@@ -51,24 +51,28 @@
                         echo '</li >';
                     }
                     ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin.php">ADMIN</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 <header class="top fixed-top d-none d-lg-flex justify-content-center">
     <img src="img/i.png" alt="Logo" style="height: 70px; width: auto;">
-    <a href="./index.php" class="text-white" style="text-decoration: none;">Home</a>
-    <a href="programs.php" class="text-white" style="text-decoration: none;">Programs</a>
-    <a href="cz_sk_rap.php" class="text-white" style="text-decoration: none;">CZ/SK Rap</a>
-    <a href="store.php" class="text-white" style="text-decoration: none;">Store</a>
-    <a href="contact.php" class="text-white" style="text-decoration: none;">Contact</a>
+    <a href="./index.php" class="bar" style="text-decoration: none;">Home</a>
+    <a href="programs.php" class="bar" style="text-decoration: none;">Programs</a>
+    <a href="cz_sk_rap.php" class="bar" style="text-decoration: none;">CZ/SK Rap</a>
+    <a href="store.php" class="bar" style="text-decoration: none;">Store</a>
+    <a href="contact.php" class="bar" style="text-decoration: none;">Contact</a>
     <?php
     if(!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] != true) {
-        echo '<a class="nav-link" href = "login.php" > LOGIN</a >';
-        echo '<a class="nav-link" href = "register.php" > REGISTER</a >';
+        echo '<a href = "login.php" > LOGIN</a >';
+        echo '<a href = "register.php" > REGISTER</a >';
     }
     if(isset($_SESSION["logged_in"]) && $_SESSION["logged_in"] == true) {
         echo '<a class="nav-link" href = "logout.php" >LOGOUT</a >';
     }
     ?>
+    <a href="admin.php" class="bar" style="text-decoration: none;">ADMIN</a>
 </header>

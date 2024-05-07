@@ -1,6 +1,6 @@
 <footer class="mt-5 autor">
     <hr>
-    <p style="margin: 0 auto;">© 2023</p>
+    <p style="margin: 0 auto;">© 2024</p>
     <p style="margin: 0 auto;">Producer name Majkyy</p>
     <p>Vytvoril Marián Šebora</p>
   </footer>

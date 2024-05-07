@@ -31,7 +31,7 @@ body{
 }
   
 .top a:hover {
-    background-color:#8800ff;
+    background-color: #ff3c00;
     color: black;
     border-radius: 10px;
 }
@@ -133,6 +133,7 @@ main{
 
 @media (max-width: 767px) /* Zobrazenie pre mobil */
 {
+
     .logo1fl{
 
         display: block;
@@ -251,7 +252,7 @@ main{
     
     .beat1:hover{
     
-        background-color:#8800ff;
+        background-color: #ff3c00;
         color: #000000;
         text-decoration: none;
     
@@ -419,7 +420,7 @@ main{
 
     .flstudioweb:hover{
     
-        background-color: #f38c24;
+        background-color: #ff3c00;
         color: #000000;
         text-decoration: none;
     
@@ -963,7 +964,7 @@ main{
     
     .beat1:hover{
     
-        background-color:#a202ff;
+        background-color: #ff3c00;
         color: #000000;
         text-decoration: none;
     
@@ -1129,7 +1130,7 @@ main{
 
     .flstudioweb:hover{
     
-        background-color:#f38c24;
+        background-color: #ff3c00;
         color: #000000;
         text-decoration: none;
     
@@ -1573,3 +1574,4 @@ main{
     text-align: left;
     
 }
+

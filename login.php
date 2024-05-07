@@ -6,13 +6,14 @@ if(isset($_SESSION['logged_in'])&&$_SESSION['logged_in']==true){
 ?>
 <main>
     <section class="container">
-        <h1>Login</h1>
+        <h1 style="font-style: oblique; font-family: 'Calibri'; font-weight: bold;">Login</h1>
         <form action="" method="POST">
-            <input type="email" name="email" placeholder="name@mail.com">
+            <label for="email" style="margin-bottom: 1%; font-weight: bold">E-mail:</label>
+            <input type="email" name="email" style="margin-bottom: 1%; width: 15%" placeholder="name@mail.com" class="form-control">
+            <label for="email" style="margin-bottom: 1%; font-weight: bold">Password:</label>
+            <input type="text" name="password" placeholder="password" style="margin-bottom: 1%; width: 15%" class="form-control">
             <br>
-            <input type="text" name="password" placeholder="password">
-            <br>
-            <input type="submit" value="Send" name="user_login">
+            <input type="submit" value="Login" class="btn btn-success" name="user_login">
         </form>
         <?php
 
@@ -35,7 +36,7 @@ if(isset($_SESSION['logged_in'])&&$_SESSION['logged_in']==true){
         ?>
     </section>
 </main>
-
+<br><br>
 <?php
 include_once('partials/footer.php')
 ?>

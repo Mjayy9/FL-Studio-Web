@@ -13,10 +13,10 @@ if(isset($_POST['user_register'])){
         if($user_object->register($email, $password)) {
             header('location: login.php');
         } else {
-            echo "<p>Registrácia zlyhala</p>";
+            echo "<p>Registration failed</p>";
         }
     } else {
-        echo "<p>Heslá sa nezhodujú</p>";
+        echo "<p>Passwords do not match</p>";
     }
 }
 ?>
@@ -25,27 +25,27 @@ if(isset($_POST['user_register'])){
         <section class="container">
             <div class="row">
                 <div class="col-100">
-                    <h1>Registrácia</h1>
+                    <h1 style="font-style: oblique; font-family: 'Calibri'; font-weight: bold;">Registration</h1>
                     <form action="" method="POST">
-                        <label for="email">E-mail:</label>
+                        <label for="email" style="margin-bottom: 1%; font-weight: bold">E-mail:</label>
                         <br>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" placeholder="name@mail.com" id="email" name="email" required>
                         <br>
-                        <label for="password">Password:</label>
+                        <label for="password" style="margin-bottom: 1%; font-weight: bold">Password:</label>
                         <br>
-                        <input type="password" id="password" name="password" required>
+                        <input type="password" placeholder="password" id="password" name="password" required>
                         <br>
-                        <label for="confirm_password">Zopakovať heslo:</label>
+                        <label for="confirm_password" style="margin-bottom: 1%; font-weight: bold">Re-enter password:</label>
                         <br>
-                        <input type="password" id="confirm_password" name="confirm_password" required>
+                        <input type="password" placeholder="re-enter password" id="confirm_password" name="confirm_password" required>
                         <br>
-                        <button type="submit" name="user_register">Registrovať sa</button>
+                        <br>
+                        <button type="submit" name="user_register" class="btn btn-success" style="margin-bottom: 1%;">Register</button>
                     </form>
                 </div>
             </div>
         </section>
     </main>
-
 <?php
 include_once('partials/footer.php');
 ?>
